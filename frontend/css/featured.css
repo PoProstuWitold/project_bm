@@ -93,3 +93,34 @@
 .product-badge--purple {
 	background: #d4b0d9;
 }
+
+.favorite-icon {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	width: 24px;
+	height: 24px;
+	cursor: pointer;
+}
+
+.favorite-icon img {
+	width: 100%;
+	height: auto;
+	display: block;
+	transition: opacity 0.3s ease;
+}
+
+.favorite-icon .icon-filled {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+}
+
+.favorite-icon:hover .icon-outline {
+	opacity: 0;
+}
+
+.favorite-icon:hover .icon-filled {
+	opacity: 1;
+}

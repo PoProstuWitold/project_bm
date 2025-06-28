@@ -49,3 +49,7 @@ button {
 	background: none;
 	border: none;
 }
+
+#home, #featured, #products {
+	scroll-margin-top: 4rem;
+}
