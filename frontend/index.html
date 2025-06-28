@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Metadata, icon, CSS -->
+	<title>Forma'Sint</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description" content="Lorem">
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+	<link rel="stylesheet" href="css/main.css">
+
+	<!-- Swiper -->
+	<link
+  		rel="stylesheet"
+  		href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+	/>
+</head>
+
+<body>
+	<!-- NAVIGATION -->
+	<header class="navbar">
+		<div class="navbar__left">
+			<span class="navbar__logo">
+				<img src="assets/icons/forma_icon.svg" alt="Forma Icon" class="navbar__icon icon-outline" />
+				<img src="assets/icons/forma_icon_filled.svg" alt="Forma Icon Filled"
+					class="navbar__icon icon-filled" />
+				<span class="navbar__brand">Forma'Sint.</span>
+			</span>
+			<span class="navbar__idomods">
+				<span class="navbar__brand">IdoMods</span>
+				<span>&lt;/&gt;</span>
+			</span>
+		</div>
+		<div class="navbar__middle">
+			<nav class="navbar__menu-desktop">
+				<ul>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#featured">Featured Products</a></li>
+					<li><a href="#products">Product Listing</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="navbar__right">
+			<button class="navbar__toggle" aria-label="Menu" id="menu-toggle">
+				<img src="assets/icons/hamburger_icon.svg" alt="Menu Icon" />
+				<span>Menu</span>
+			</button>
+			<div class="navbar__user">
+				<img src="assets/icons/user_icon.svg" alt="User Icon" />
+				<span>Frontend Developer</span>
+			</div>
+		</div>
+
+		<!-- Mobilne menu wysuwane z prawej -->
+		<nav class="navbar__menu" id="menu">
+			<div class="navbar__close-header">
+				<span class="navbar__logo">
+					<img src="assets/icons/forma_icon.svg" alt="Forma Icon" />
+				</span>
+				<button class="navbar__close" id="menu-close">
+					<img src="assets/icons/close_icon.svg" alt="Close Icon" />
+					<span>Close</span>
+				</button>
+			</div>
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#featured">Featured Products</a></li>
+				<li><a href="#products">Product Listing</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<!-- Main Contents -->
+	<main>
+		<!-- Hero -->
+		<section class="hero" id="home">
+			<h1 class="hero__title">Forma’Sint.</h1>
+			<img src="assets/img/hero.png" alt="Climber" class="hero__image" />
+		</section>
+
+		<!-- Featured Products -->
+		<section class="featured" id="featured">
+			<h2 class="featured__subtitle">FEATURED PRODUCTS</h2>
+			<h3 class="featured__title">Browse featured</h3>
+			<div class="swiper featured-swiper">
+				<div class="swiper-wrapper">
+					<!-- Slides generated from JavaScript -->
+				</div>
+				<!-- Arrows -->
+				<div class="swiper-button-next custom-arrow">
+					<img src="assets/icons/slider_arrow_icon.svg" alt="Next" />
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<!-- JavaScript -->
+	 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>

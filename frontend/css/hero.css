@@ -1,0 +1,27 @@
+.hero {
+	margin-top: 3rem;
+}
+
+.hero__title {
+	font-size: 3.5rem;
+	font-weight: 700;
+}
+
+.hero__image {
+	width: 100%;
+	height: auto;
+	border-radius: 0.5rem;
+	display: block;
+	object-fit: cover;
+}
+
+/* Desktop - większy font */
+@media screen and (min-width: 768px) {
+	.hero__title {
+		font-size: 10rem;
+	}
+	.hero__image {
+		max-height: 500px;
+		object-fit: cover;
+	}
+}
