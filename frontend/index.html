@@ -11,10 +11,7 @@
 	<link rel="stylesheet" href="css/main.css">
 
 	<!-- Swiper -->
-	<link
-  		rel="stylesheet"
-  		href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-	/>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -93,10 +90,28 @@
 				</div>
 			</div>
 		</section>
+		<!-- All Products -->
+		<section id="products">
+			<div class="products-per-page">
+				<label for="productsPerPage">
+					NUMBER OF PRODUCTS PER PAGE
+				</label>
+				<select id="productsPerPage">
+					<option value="14" selected>14</option>
+					<option value="18">18</option>
+					<option value="24">24</option>
+					<option value="30">30</option>
+					<option value="36">36</option>
+				</select>
+			</div>
+			<section class="all-products-grid" id="products-grid">
+				<!-- Loaded from JavaScript to manipulate 5th card -->
+			</section>
+		</section>
 	</main>
 
 	<!-- JavaScript -->
-	 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 	<script src="js/main.js"></script>
 </body>
 
