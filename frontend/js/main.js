@@ -23,7 +23,7 @@ const featuredProducts = [
 	{
 		badge: 'BESTSELLER',
 		badgeClass: 'product-badge',
-		img: 'assets/img/mock_jacket.png',
+		img: 'assets/img/mock_jacket.webp',
 		alt: 'Blue Jacket',
 		title: 'Dark blue alpine climbing jacket',
 		price: '€300,00 EUR'
@@ -31,7 +31,7 @@ const featuredProducts = [
 	{
 		badge: 'LIMITED EDITION',
 		badgeClass: 'product-badge--purple',
-		img: 'assets/img/ski_helmet.png',
+		img: 'assets/img/ski_helmet.webp',
 		alt: 'Orange Helmet',
 		title: 'Orange helmet for alpine TOUNDRA',
 		price: '€300,00 EUR'
@@ -39,7 +39,7 @@ const featuredProducts = [
 	{
 		badge: '',
 		badgeClass: '',
-		img: 'assets/img/mock_jacket.png',
+		img: 'assets/img/mock_jacket.webp',
 		alt: 'Blue Jacket',
 		title: 'Dark blue alpine climbing jacket',
 		price: '€300,00 EUR'
@@ -47,7 +47,7 @@ const featuredProducts = [
 	{
 		badge: 'BESTSELLER',
 		badgeClass: 'product-badge',
-		img: 'assets/img/mock_jacket.png',
+		img: 'assets/img/mock_jacket.webp',
 		alt: 'Blue Jacket',
 		title: 'Dark blue alpine climbing jacket',
 		price: '€300,00 EUR'
@@ -55,7 +55,7 @@ const featuredProducts = [
 	{
 		badge: '',
 		badgeClass: '',
-		img: 'assets/img/ski_helmet.png',
+		img: 'assets/img/ski_helmet.webp',
 		alt: 'Orange Helmet',
 		title: 'Orange helmet for alpine TOUNDRA',
 		price: '€300,00 EUR'
@@ -63,7 +63,7 @@ const featuredProducts = [
 	{
 		badge: 'BESTSELLER',
 		badgeClass: 'product-badge',
-		img: 'assets/img/ski_helmet.png',
+		img: 'assets/img/ski_helmet.webp',
 		alt: 'Orange Helmet',
 		title: 'Orange helmet for alpine TOUNDRA',
 		price: '€300,00 EUR'
@@ -169,7 +169,7 @@ class ProductGrid {
 		div.dataset.id = product.id
 		div.innerHTML = `
 		<p>ID: ${String(product.id).padStart(2, '0')}</p>
-		<img src="${product.image || 'assets/img/mock_jacket.png'}" alt="ID ${product.id}" />
+		<img src="${product.image || 'assets/img/mock_jacket.webp'}" alt="ID ${product.id}" />
 	`
 		div.addEventListener('click', () => {
 			const modal = document.getElementById('product-modal')
@@ -177,7 +177,7 @@ class ProductGrid {
 			const modalId = document.getElementById('modal-id')
 
 			content.innerHTML = `
-			<img src="${product.image || 'assets/img/mock_jacket.png'}" alt="Product Image" />
+			<img src="${product.image || 'assets/img/mock_jacket.webp'}" alt="Product Image" />
 		`
 			modalId.textContent = `ID: ${String(product.id).padStart(2, '0')}`
 
@@ -192,7 +192,7 @@ class ProductGrid {
 		div.className = 'all-products-banner'
 		div.id = 'main-banner'
 		div.innerHTML = `
-			<img src="assets/img/skier.png" alt="Banner" />
+			<img src="assets/img/skier.webp" alt="Banner" loading="lazy" />
 			<div class="all-products-banner-content">
 				<div class="all-products-banner-text">
 					<p class="all-products-banner-subtitle">Forma'Sint.</p>
