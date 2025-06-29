@@ -1,0 +1,23 @@
+{
+	"name": "backend",
+	"version": "1.0.0",
+	"author": "PoProstuWitold",
+	"description": "Backend ProjectBM",
+	"main": "src/index.mjs",
+	"type": "module",
+	"engines": {
+		"node": ">=22.x",
+		"pnpm": ">=10.x"
+	},
+	"packageManager": "pnpm@10.12.4",
+	"scripts": {
+		"start": "node --env-file .env src/index.mjs",
+		"dev": "NODE_ENV='development' node --env-file .env --watch src/index.mjs",
+		"test": "node --test __tests__/*.test.mjs"
+	},
+	"keywords": [],
+	"dependencies": {
+		"express": "^5.1.0",
+		"node-fetch": "^3.3.2"
+	}
+}
