@@ -87,14 +87,14 @@
 	margin: 0;
 }
 
-.navbar__menu-desktop a,
-.navbar__menu a {
+.navbar__menu-desktop .navbar__menu-item,
+.navbar__menu .navbar__menu-item {
 	position: relative;
 	text-decoration: none;
 }
 
-.navbar__menu-desktop a::after,
-.navbar__menu a::after {
+.navbar__menu-desktop .navbar__menu-item::after,
+.navbar__menu .navbar__menu-item::after {
 	content: "";
 	position: absolute;
 	left: 0;
@@ -107,8 +107,8 @@
 	transition: transform 0.3s ease;
 }
 
-.navbar__menu-desktop a:hover::after,
-.navbar__menu a:hover::after {
+.navbar__menu-desktop .navbar__menu-item:hover::after,
+.navbar__menu .navbar__menu-item:hover::after {
 	transform: scaleX(1);
 }
 
@@ -162,6 +162,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	margin-bottom: 5rem;
 }
 
 .navbar__idomods {

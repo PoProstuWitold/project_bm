@@ -32,9 +32,9 @@
 		<div class="navbar__middle">
 			<nav class="navbar__menu-desktop">
 				<ul>
-					<li><a href="#home">Home</a></li>
-					<li><a href="#featured">Featured Products</a></li>
-					<li><a href="#products">Product Listing</a></li>
+					<li><a class="navbar__menu-item" href="#home">Home</a></li>
+					<li><a class="navbar__menu-item" href="#featured">Featured Products</a></li>
+					<li><a class="navbar__menu-item" href="#products">Product Listing</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -52,18 +52,20 @@
 		<!-- Mobile Menu -->
 		<nav class="navbar__menu" id="menu">
 			<div class="navbar__close-header">
-				<span class="navbar__logo">
-					<img src="assets/icons/forma_icon.svg" alt="Forma Icon" />
-				</span>
+				<a class="navbar__logo" href="#">
+					<img src="assets/icons/forma_icon.svg" alt="Forma Icon" class="navbar__icon icon-outline" />
+					<img src="assets/icons/forma_icon_filled.svg" alt="Forma Icon Filled"
+						class="navbar__icon icon-filled" />
+				</a>
 				<button class="navbar__close" id="menu-close">
 					<img src="assets/icons/close_icon.svg" alt="Close Icon" />
 					<span>Close</span>
 				</button>
 			</div>
 			<ul>
-				<li><a href="#home">Home</a></li>
-				<li><a href="#featured">Featured Products</a></li>
-				<li><a href="#products">Product Listing</a></li>
+				<li><a class="navbar__menu-item" href="#home">Home</a></li>
+				<li><a class="navbar__menu-item" href="#featured">Featured Products</a></li>
+				<li><a class="navbar__menu-item" href="#products">Product Listing</a></li>
 			</ul>
 		</nav>
 	</header>
