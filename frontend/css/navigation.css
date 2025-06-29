@@ -91,7 +91,6 @@
 .navbar__menu a {
 	position: relative;
 	text-decoration: none;
-	color: #000;
 }
 
 .navbar__menu-desktop a::after,
@@ -144,7 +143,6 @@
 
 .navbar__menu a {
 	text-decoration: none;
-	color: #000;
 	font-weight: bold;
 }
 
@@ -184,5 +182,9 @@
 	.navbar__menu,
 	.navbar__close {
 		display: none !important;
+	}
+
+	.navbar {
+		padding: 1rem 3rem;
 	}
 }

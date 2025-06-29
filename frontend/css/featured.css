@@ -4,7 +4,6 @@
 
 .featured__subtitle {
 	font-size: 1rem;
-	color: #555;
 	text-transform: uppercase;
 	letter-spacing: 0.05em;
 	margin-bottom: 0.25rem;
@@ -42,7 +41,7 @@
 }
 
 .product-image {
-	background: #eaebe7;
+	background: var(--secondary-color);
 	padding: 1rem;
 	border-radius: 1rem;
 }
@@ -74,7 +73,6 @@
 }
 
 .product-card p {
-	color: #333;
 	font-size: 1rem;
 }
 
@@ -82,7 +80,7 @@
 	position: absolute;
 	top: 1rem;
 	left: 1rem;
-	background: #d9d6b0;
+	background: var(--label-bestseller);
 	font-size: 0.75rem;
 	font-weight: bold;
 	padding: 0.3rem 0.6rem;
@@ -91,7 +89,7 @@
 }
 
 .product-badge--purple {
-	background: #d4b0d9;
+	background: var(--label-limited-edition);
 }
 
 .favorite-icon {

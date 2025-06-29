@@ -15,7 +15,7 @@ html {
 body {
 	font-family: 'Inter', sans-serif;
 	line-height: 1.6;
-	color: #111;
+	color: var(--primary-color);
 	background-color: #fff;
 }
 

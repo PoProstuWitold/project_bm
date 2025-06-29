@@ -1,5 +1,6 @@
 .hero {
 	margin-top: 3rem;
+	line-height: 1.1;
 }
 
 .hero__title {
@@ -17,7 +18,7 @@
 
 @media screen and (min-width: 768px) {
 	.hero__title {
-		font-size: 10rem;
+		font-size: 8.5rem;
 	}
 	.hero__image {
 		max-height: 500px;
