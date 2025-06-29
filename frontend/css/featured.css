@@ -43,7 +43,7 @@
 .product-image {
 	background: var(--secondary-color);
 	padding: 1rem;
-	border-radius: 1rem;
+	border-radius: 0.5rem;
 }
 
 .custom-arrow {
