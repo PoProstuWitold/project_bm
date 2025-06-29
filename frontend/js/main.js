@@ -168,9 +168,22 @@ class ProductGrid {
 		if (isMobile5th) div.classList.add('mobile-move-down')
 		div.dataset.id = product.id
 		div.innerHTML = `
-			<p>ID: ${String(product.id).padStart(2, '0')}</p>
-			<img src="${product.image || 'assets/img/mock_jacket.png'}" alt="ID ${product.id}" />
+		<p>ID: ${String(product.id).padStart(2, '0')}</p>
+		<img src="${product.image || 'assets/img/mock_jacket.png'}" alt="ID ${product.id}" />
+	`
+		div.addEventListener('click', () => {
+			const modal = document.getElementById('product-modal')
+			const content = document.getElementById('modal-content')
+			const modalId = document.getElementById('modal-id')
+
+			content.innerHTML = `
+			<img src="${product.image || 'assets/img/mock_jacket.png'}" alt="Product Image" />
 		`
+			modalId.textContent = `ID: ${String(product.id).padStart(2, '0')}`
+
+			modal.showModal()
+		})
+
 		return div
 	}
 
