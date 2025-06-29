@@ -15,34 +15,42 @@ export class IsApiService {
 	}
 
 	async fetchAllOrders() {
-		const url = `${this.apiUrl}/orders/orders/search`
+		let allOrders = []
+		let page = 0
+		let hasMore = true
 
-		const body = {
-			params: {
-				ordersBy: [
-					{
-						sortDirection: 'DESC',
-						elementName: 'id'
+		while (hasMore) {
+			const res = await fetch(`${this.apiUrl}/orders/orders/search`, {
+				method: 'POST',
+				headers: this.getHeaders(),
+				body: JSON.stringify({
+					page,
+					pageSize: 100,
+					params: {
+						orderCurrency: 'PLN',
+						showBundles: true,
+						ordersBy: [
+							{
+								sortDirection: 'DESC',
+								elementName: 'id'
+							}
+						]
 					}
-				],
-				orderCurrency: 'PLN',
-				showBundles: true
-			}
+				})
+			})
+
+			if (!res.ok) throw new Error(`Fetch failed on page ${page}`)
+
+			const data = await res.json()
+			const { Results = [], resultsNumberAll = 0 } = data
+
+			allOrders.push(...Results)
+			page++
+			hasMore = allOrders.length < resultsNumberAll
 		}
 
-
-		const res = await fetch(url, {
-			method: 'POST',
-			headers: this.getHeaders(),
-			body: JSON.stringify(body)
-		})
-
-		if (!res.ok) throw new Error(`Search failed: ${res.statusText}`)
-
-		const data = await res.json()
-		return data
+		return allOrders
 	}
-
 
 	async fetchOneOrder(orderId, serialNumber) {
 		const url = new URL(`${this.apiUrl}/orders/orders`)

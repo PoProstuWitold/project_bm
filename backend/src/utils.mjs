@@ -1,12 +1,10 @@
-export function extractOrderSummary(order) {
-	if (!order?.orderId || !order?.orderDetails?.productsResults) return null
-
+export function extractOrderSummary(rawOrder) {
 	return {
-		orderId: order.orderId,
-		products: order.orderDetails.productsResults.map(p => ({
+		orderId: rawOrder.orderId,
+		products: rawOrder.orderDetails.productsResults.map(p => ({
 			productId: p.productId,
 			quantity: p.productQuantity
 		})),
-		orderWorth: order.orderDetails.payments.orderCurrency.orderProductsCost
+		orderWorth: rawOrder.orderDetails.payments.orderCurrency.orderProductsCost
 	}
 }

@@ -18,6 +18,8 @@
 	"keywords": [],
 	"dependencies": {
 		"express": "^5.1.0",
+		"json2csv": "6.0.0-alpha.2",
+		"node-cron": "^4.1.1",
 		"node-fetch": "^3.3.2"
 	}
 }

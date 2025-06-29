@@ -1,0 +1,1076 @@
+[
+  {
+    "orderId": "matewa260625131136-1",
+    "products": [
+      {
+        "productId": 25114,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 5.41
+  },
+  {
+    "orderId": "test@test.pl-3",
+    "products": [
+      {
+        "productId": 200635,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 214.18
+  },
+  {
+    "orderId": "test@test.pl-2",
+    "products": [
+      {
+        "productId": 200635,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 224.18
+  },
+  {
+    "orderId": "it@zooart.com.pl-476",
+    "products": [
+      {
+        "productId": 200636,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 23.99
+  },
+  {
+    "orderId": "jankewewalski@test.com-8",
+    "products": [
+      {
+        "productId": 25114,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 5.41
+  },
+  {
+    "orderId": "jankewewalski@test.com-7",
+    "products": [
+      {
+        "productId": 191972,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 62.5
+  },
+  {
+    "orderId": "jankewewalski@test.com-6",
+    "products": [
+      {
+        "productId": 178662,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 20
+  },
+  {
+    "orderId": "qqq@wp.pl-1",
+    "products": [],
+    "orderWorth": 0
+  },
+  {
+    "orderId": "it@zooart.com.pl-475",
+    "products": [
+      {
+        "productId": 25114,
+        "quantity": 3
+      }
+    ],
+    "orderWorth": 16.23
+  },
+  {
+    "orderId": "it@zooart.com.pl-474",
+    "products": [
+      {
+        "productId": 25114,
+        "quantity": 1
+      },
+      {
+        "productId": 4615,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 21.53
+  },
+  {
+    "orderId": "jankewewalski@test.com-5",
+    "products": [
+      {
+        "productId": 80888,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 60.99
+  },
+  {
+    "orderId": "jankewewalski@test.com-4",
+    "products": [
+      {
+        "productId": 191972,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 62.5
+  },
+  {
+    "orderId": "jankewewalski@test.com-3",
+    "products": [
+      {
+        "productId": 191878,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 109.9
+  },
+  {
+    "orderId": "jankewewalski@test.com-2",
+    "products": [
+      {
+        "productId": 178662,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 20
+  },
+  {
+    "orderId": "it@zooart.com.pl-473",
+    "products": [
+      {
+        "productId": 25065,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 32.24
+  },
+  {
+    "orderId": "admin-4",
+    "products": [
+      {
+        "productId": 25033,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 72.54
+  },
+  {
+    "orderId": "admin-3",
+    "products": [
+      {
+        "productId": 85452,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 20
+  },
+  {
+    "orderId": "it@zooart.com.pl-472",
+    "products": [
+      {
+        "productId": 4303,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 14.26
+  },
+  {
+    "orderId": "it@zooart.com.pl-471",
+    "products": [
+      {
+        "productId": 4303,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 14.26
+  },
+  {
+    "orderId": "it@zooart.com.pl-470",
+    "products": [
+      {
+        "productId": 4303,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 14.26
+  },
+  {
+    "orderId": "jakub.glegola@brandsmanago.pl-8",
+    "products": [
+      {
+        "productId": 72132,
+        "quantity": 2
+      }
+    ],
+    "orderWorth": 7286.24
+  },
+  {
+    "orderId": "it@zooart.com.pl-469",
+    "products": [
+      {
+        "productId": 72132,
+        "quantity": 1
+      },
+      {
+        "productId": 4303,
+        "quantity": 3
+      }
+    ],
+    "orderWorth": 3685.9
+  },
+  {
+    "orderId": "norbert-8",
+    "products": [
+      {
+        "productId": 11511,
+        "quantity": 2
+      }
+    ],
+    "orderWorth": 22.26
+  },
+  {
+    "orderId": "norbert-7",
+    "products": [
+      {
+        "productId": 73186,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 265.98
+  },
+  {
+    "orderId": "norbert-6",
+    "products": [],
+    "orderWorth": 0
+  },
+  {
+    "orderId": "norbert-5",
+    "products": [],
+    "orderWorth": 0
+  },
+  {
+    "orderId": "norbert-4",
+    "products": [],
+    "orderWorth": 0
+  },
+  {
+    "orderId": "norbert-3",
+    "products": [],
+    "orderWorth": 0
+  },
+  {
+    "orderId": "norbert-2",
+    "products": [],
+    "orderWorth": 0
+  },
+  {
+    "orderId": "norbert-1",
+    "products": [
+      {
+        "productId": 15060,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 4.42
+  },
+  {
+    "orderId": "it@zooart.com.pl-468",
+    "products": [
+      {
+        "productId": 25114,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 5.41
+  },
+  {
+    "orderId": "it@zooart.com.pl-467",
+    "products": [
+      {
+        "productId": 73186,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 265.98
+  },
+  {
+    "orderId": "it@zooart.com.pl-466",
+    "products": [
+      {
+        "productId": 73186,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 265.98
+  },
+  {
+    "orderId": "it@zooart.com.pl-465",
+    "products": [
+      {
+        "productId": 73186,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 265.98
+  },
+  {
+    "orderId": "it@zooart.com.pl-464",
+    "products": [
+      {
+        "productId": 73186,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 265.98
+  },
+  {
+    "orderId": "it@zooart.com.pl-463",
+    "products": [
+      {
+        "productId": 200619,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 150
+  },
+  {
+    "orderId": "it@zooart.com.pl-462",
+    "products": [
+      {
+        "productId": 200619,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 150
+  },
+  {
+    "orderId": "it@zooart.com.pl-461",
+    "products": [
+      {
+        "productId": 200619,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 150
+  },
+  {
+    "orderId": "it@zooart.com.pl-460",
+    "products": [
+      {
+        "productId": 200619,
+        "quantity": 1
+      },
+      {
+        "productId": 200617,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 151
+  },
+  {
+    "orderId": "it@zooart.com.pl-459",
+    "products": [
+      {
+        "productId": 200619,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 150
+  },
+  {
+    "orderId": "it@zooart.com.pl-458",
+    "products": [
+      {
+        "productId": 200619,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 150
+  },
+  {
+    "orderId": "kotrpu240425102134-1",
+    "products": [
+      {
+        "productId": 4150,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 53
+  },
+  {
+    "orderId": "haklbe110124130225-2",
+    "products": [
+      {
+        "productId": 25065,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 20
+  },
+  {
+    "orderId": "jdz8654@gmail.com-2",
+    "products": [
+      {
+        "productId": 199087,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 29.03
+  },
+  {
+    "orderId": "jdz8654@gmail.com-1",
+    "products": [
+      {
+        "productId": 199087,
+        "quantity": 1
+      },
+      {
+        "productId": 5165,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 120.57
+  },
+  {
+    "orderId": "jakub.glegola@brandsmanago.pl-7",
+    "products": [
+      {
+        "productId": 76067,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 20.07
+  },
+  {
+    "orderId": "tesetstestsett@test.pl-1",
+    "products": [
+      {
+        "productId": 85452,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 20
+  },
+  {
+    "orderId": "asd-1",
+    "products": [
+      {
+        "productId": 199217,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 16.12
+  },
+  {
+    "orderId": "konrad.boleslawski17-2",
+    "products": [
+      {
+        "productId": 198326,
+        "quantity": 1
+      },
+      {
+        "productId": 11511,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 59.12
+  },
+  {
+    "orderId": "asd@asd.asd-2",
+    "products": [
+      {
+        "productId": 25144,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 41.76
+  },
+  {
+    "orderId": "it@zooart.com.pl-457",
+    "products": [
+      {
+        "productId": 198469,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 301.72
+  },
+  {
+    "orderId": "it@zooart.com.pl-456",
+    "products": [
+      {
+        "productId": 194556,
+        "quantity": 12
+      }
+    ],
+    "orderWorth": 506.88
+  },
+  {
+    "orderId": "it@zooart.com.pl-455",
+    "products": [
+      {
+        "productId": 198367,
+        "quantity": 12
+      }
+    ],
+    "orderWorth": 466.32
+  },
+  {
+    "orderId": "it@zooart.com.pl-454",
+    "products": [
+      {
+        "productId": 198469,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 397
+  },
+  {
+    "orderId": "it@zooart.com.pl-453",
+    "products": [
+      {
+        "productId": 198413,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 123.5
+  },
+  {
+    "orderId": "norbert.szpakowski-1",
+    "products": [
+      {
+        "productId": 198729,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 47.99
+  },
+  {
+    "orderId": "norbert.szpakowski1-1",
+    "products": [
+      {
+        "productId": 198729,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 42.24
+  },
+  {
+    "orderId": "asd@asd.asd-1",
+    "products": [
+      {
+        "productId": 198695,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 609
+  },
+  {
+    "orderId": "konrad.boleslawski15-2",
+    "products": [
+      {
+        "productId": 198413,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 123.5
+  },
+  {
+    "orderId": "konrad.boleslawski19-47",
+    "products": [
+      {
+        "productId": 198753,
+        "quantity": 1
+      },
+      {
+        "productId": 198729,
+        "quantity": 1
+      },
+      {
+        "productId": 198470,
+        "quantity": 2
+      }
+    ],
+    "orderWorth": 96.69
+  },
+  {
+    "orderId": "konrad.boleslawski17-1",
+    "products": [
+      {
+        "productId": 198815,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 14.34
+  },
+  {
+    "orderId": "tewa220124141416-2",
+    "products": [
+      {
+        "productId": 198413,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 123.5
+  },
+  {
+    "orderId": "konrad.boleslawski15-1",
+    "products": [
+      {
+        "productId": 198413,
+        "quantity": 11
+      }
+    ],
+    "orderWorth": 1358.5
+  },
+  {
+    "orderId": "jakub.glegola@brandsmanago.pl-6",
+    "products": [
+      {
+        "productId": 198470,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 10
+  },
+  {
+    "orderId": "jakub.glegola@brandsmanago.pl-5",
+    "products": [
+      {
+        "productId": 198413,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 123.5
+  },
+  {
+    "orderId": "norbert.szpakowski2-1",
+    "products": [
+      {
+        "productId": 198466,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 609
+  },
+  {
+    "orderId": "konrad.boleslawski19-46",
+    "products": [
+      {
+        "productId": 198815,
+        "quantity": 3
+      }
+    ],
+    "orderWorth": 43.02
+  },
+  {
+    "orderId": "jakub.glegola@brandsmanago.pl-4",
+    "products": [
+      {
+        "productId": 198492,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 37.47
+  },
+  {
+    "orderId": "tewa220124141416-1",
+    "products": [
+      {
+        "productId": 198413,
+        "quantity": 22
+      }
+    ],
+    "orderWorth": 2186.99
+  },
+  {
+    "orderId": "krystyna.ovdeichuk@brandsmanago.pl-14",
+    "products": [
+      {
+        "productId": 25033,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 72.54
+  },
+  {
+    "orderId": "krystyna.ovdeichuk@brandsmanago.pl-13",
+    "products": [
+      {
+        "productId": 25033,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 72.54
+  },
+  {
+    "orderId": "krystyna.ovdeichuk@brandsmanago.pl-12",
+    "products": [
+      {
+        "productId": 25130,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 32.28
+  },
+  {
+    "orderId": "krystyna.ovdeichuk@brandsmanago.pl-11",
+    "products": [
+      {
+        "productId": 25033,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 72.54
+  },
+  {
+    "orderId": "krystyna.ovdeichuk@brandsmanago.pl-10",
+    "products": [
+      {
+        "productId": 25033,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 72.54
+  },
+  {
+    "orderId": "krystyna.ovdeichuk@brandsmanago.pl-9",
+    "products": [
+      {
+        "productId": 85452,
+        "quantity": 1
+      },
+      {
+        "productId": 85423,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 26.96
+  },
+  {
+    "orderId": "krystyna.ovdeichuk@brandsmanago.pl-8",
+    "products": [
+      {
+        "productId": 85452,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 20
+  },
+  {
+    "orderId": "krystyna.ovdeichuk@brandsmanago.pl-7",
+    "products": [
+      {
+        "productId": 25033,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 72.54
+  },
+  {
+    "orderId": "krystyna.ovdeichuk@brandsmanago.pl-6",
+    "products": [
+      {
+        "productId": 25033,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 72.54
+  },
+  {
+    "orderId": "it@zooart.com.pl-452",
+    "products": [
+      {
+        "productId": 77306,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 46.8
+  },
+  {
+    "orderId": "tststdelin@test.com-1",
+    "products": [
+      {
+        "productId": 77306,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 46.8
+  },
+  {
+    "orderId": "it@zooart.com.pl-451",
+    "products": [
+      {
+        "productId": 77306,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 46.8
+  },
+  {
+    "orderId": "testvita@test.com-1",
+    "products": [
+      {
+        "productId": 77306,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 46.8
+  },
+  {
+    "orderId": "it@zooart.com.pl-450",
+    "products": [
+      {
+        "productId": 77306,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 46.8
+  },
+  {
+    "orderId": "it@zooart.com.pl-449",
+    "products": [
+      {
+        "productId": 73137,
+        "quantity": 2
+      }
+    ],
+    "orderWorth": 1221.9
+  },
+  {
+    "orderId": "POS/PA/1/M1/2503-1",
+    "products": [
+      {
+        "productId": 198306,
+        "quantity": 5
+      },
+      {
+        "productId": 73187,
+        "quantity": 1
+      },
+      {
+        "productId": 11951,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 1216
+  },
+  {
+    "orderId": "it@zooart.com.pl-448",
+    "products": [
+      {
+        "productId": 198753,
+        "quantity": 10
+      }
+    ],
+    "orderWorth": 287.6
+  },
+  {
+    "orderId": "it@zooart.com.pl-447",
+    "products": [
+      {
+        "productId": 25114,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 5.41
+  },
+  {
+    "orderId": "konrad.boleslawski19-45",
+    "products": [
+      {
+        "productId": 4303,
+        "quantity": 1
+      },
+      {
+        "productId": 4150,
+        "quantity": 1
+      },
+      {
+        "productId": 4147,
+        "quantity": 5
+      }
+    ],
+    "orderWorth": 569.26
+  },
+  {
+    "orderId": "it@zooart.com.pl-446",
+    "products": [
+      {
+        "productId": 25033,
+        "quantity": 2
+      }
+    ],
+    "orderWorth": 145.08
+  },
+  {
+    "orderId": "konrad.boleslawski19-44",
+    "products": [
+      {
+        "productId": 4303,
+        "quantity": 1
+      },
+      {
+        "productId": 4150,
+        "quantity": 1
+      },
+      {
+        "productId": 4147,
+        "quantity": 5
+      }
+    ],
+    "orderWorth": 569.26
+  },
+  {
+    "orderId": "konrad.boleslawski19-43",
+    "products": [
+      {
+        "productId": 4303,
+        "quantity": 1
+      },
+      {
+        "productId": 4150,
+        "quantity": 1
+      },
+      {
+        "productId": 4147,
+        "quantity": 5
+      }
+    ],
+    "orderWorth": 569.26
+  },
+  {
+    "orderId": "konrad.boleslawski19-42",
+    "products": [
+      {
+        "productId": 4303,
+        "quantity": 1
+      },
+      {
+        "productId": 4150,
+        "quantity": 1
+      },
+      {
+        "productId": 4147,
+        "quantity": 5
+      }
+    ],
+    "orderWorth": 569.26
+  },
+  {
+    "orderId": "konrad.boleslawski19-41",
+    "products": [
+      {
+        "productId": 4303,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 4.26
+  },
+  {
+    "orderId": "konrad.boleslawski19-40",
+    "products": [
+      {
+        "productId": 4303,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 4.26
+  },
+  {
+    "orderId": "konrad.boleslawski19-39",
+    "products": [
+      {
+        "productId": 4303,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 3.94
+  },
+  {
+    "orderId": "konrad.boleslawski19-38",
+    "products": [
+      {
+        "productId": 4303,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 0.42
+  },
+  {
+    "orderId": "konrad.boleslawski19-37",
+    "products": [
+      {
+        "productId": 4303,
+        "quantity": 1
+      },
+      {
+        "productId": 4150,
+        "quantity": 1
+      },
+      {
+        "productId": 4147,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 161.26
+  },
+  {
+    "orderId": "konrad.boleslawski19-36",
+    "products": [
+      {
+        "productId": 4303,
+        "quantity": 1
+      },
+      {
+        "productId": 4150,
+        "quantity": 1
+      },
+      {
+        "productId": 4147,
+        "quantity": 1
+      }
+    ],
+    "orderWorth": 161.26
+  },
+  {
+    "orderId": "konrad.boleslawski19-35",
+    "products": [
+      {
+        "productId": 4303,
+        "quantity": 65
+      },
+      {
+        "productId": 4150,
+        "quantity": 325
+      },
+      {
+        "productId": 4147,
+        "quantity": 285
+      }
+    ],
+    "orderWorth": 47221.65
+  },
+  {
+    "orderId": "konrad.boleslawski19-34",
+    "products": [
+      {
+        "productId": 4303,
+        "quantity": 64
+      },
+      {
+        "productId": 4150,
+        "quantity": 320
+      },
+      {
+        "productId": 4147,
+        "quantity": 280
+      }
+    ],
+    "orderWorth": 46432.4
+  }
+]
