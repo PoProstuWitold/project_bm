@@ -13,15 +13,16 @@
 		<section id="home">
 			<h1>ProjectBM</h1>
 			<p>Strona zrobiona wyłącznie w celu lepszego wyświetlania się w Github Pages.</p>
-			<p>W celu uruchomienia serwera należy stworzyć plik '.env' w katalogu 'backend' z zawartością: PORT, IS_API_URL oraz IS_API_KEY</p>
-			<p>Jest użyty basicAuth w formacie "username: admin" oraz "password: secret".</p>
+			<p>W celu uruchomienia serwera należy stworzyć plik '.env' w katalogu 'backend' z zawartością: PORT, IS_API_URL oraz IS_API_KEY, a następnie uruchomić skrypt "start" lub "dev" z pliku package.json</p>
+			<p>Jest użyty basicAuth w formacie "username: admin" oraz "password: secret" oraz CRON, który odświeża zamówienia codziennie o północy.</p>
+			<p>W pliku "Insomnia_2025-06-30.json" znajdują się wszystkie zapytania wylistowane poniżej. Wystarczy zaimportować w programie Insomnia</p>
 			<h2>Endpointy: </h2>
 			<ul>
 				<li>GET http://localhost:9000/api/orders/fetch-many - pobranie wszystkich zamówień z API.</li>
 				<li>GET http://localhost:9000/api/orders/fetch-one?id=ID_ZAMÓWIENIA_X&serial=NUMER_SERYJNY_ZAMÓWIENIA - pobranie jednego zamówienia z danym ID i/lub NUMEREM_SERYJNYM.</li>
 				<li>POST http://localhost:9000/api/orders/sync - do manualnego synchronizowania z zamówieniami zapisanymi na serwerze w pliku JSON. Nie ma duplikatów.</li>
-				<li>GET http://localhost:9000/api/orders/csv?minWorth=25&maxWorth=100 - pobranie zamówień w formacie CSV z minimalną i maksymalną wartością zamówineia.</li>
-				<li>GET http://localhost:9000/api/orders/csv/:ID_ZAMOWIENIA - pobranie pojedynczego zamowienia jako CSV.</li>
+				<li>GET http://localhost:9000/api/orders/csv?minWorth=25&maxWorth=100 - pobranie zamówień w formacie CSV z minimalną i maksymalną wartością zamówienia.</li>
+				<li>GET http://localhost:9000/api/orders/csv/:ID_ZAMOWIENIA - pobranie pojedynczego zamówienia jako CSV.</li>
 			</ul>
 		</section>
 	</main>
